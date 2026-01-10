@@ -22,6 +22,11 @@ const config: StorybookConfig = {
   },
   async viteFinal(config) {
     return mergeConfig(config, {
+      resolve: {
+        alias: {
+          "next/navigation": require.resolve("./mocks/next-navigation.ts"),
+        },
+      },
       css: {
         postcss: {
           plugins: [
