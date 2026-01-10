@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Country, EconomicData, IndicatorResponse } from "../page";
+import { EconomicCharts } from "../components/EconomicCharts";
 
 const INDICATORS = [
   { key: "gdp", id: "NY.GDP.MKTP.CD" },
@@ -43,11 +44,11 @@ async function getCountryData(cca2: string) {
   // Use cca3 from the response for World Bank API calls
   const cca3 = country.cca3;
 
-  // Fetch economic data using cca3 for World Bank API
+  // Fetch economic data using cca3 for World Bank API (10 years of data)
   const worldBankApiPromises = INDICATORS.map(
     async (indicator) =>
       (await fetch(
-        `https://api.worldbank.org/v2/country/${cca3}/indicator/${indicator.id}?format=json&per_page=1&mrv=1`
+        `https://api.worldbank.org/v2/country/${cca3}/indicator/${indicator.id}?format=json&per_page=10&mrv=10`
       ).then((res) => res.json())) as IndicatorResponse
   );
 
@@ -55,10 +56,19 @@ async function getCountryData(cca2: string) {
     worldBankApiPromises
   );
 
+  // Filter data for the specific country
+  const countryGdp = gdp.filter((data) => data.countryiso3code === cca3);
+  const countryInflation = inflation.filter(
+    (data) => data.countryiso3code === cca3
+  );
+  const countryUnemployment = unemployment.filter(
+    (data) => data.countryiso3code === cca3
+  );
+
   const economicData: EconomicData = {
-    gdp,
-    inflation,
-    unemployment,
+    gdp: countryGdp,
+    inflation: countryInflation,
+    unemployment: countryUnemployment,
   };
 
   return { country, economicData };
@@ -72,15 +82,16 @@ export default async function CountryPage({
   const { cca2 } = await params;
   const { country, economicData } = await getCountryData(cca2);
 
-  const gdp = economicData.gdp.find(
-    (data) => data.countryiso3code === country.cca3
-  )?.value;
-  const inflation = economicData.inflation.find(
-    (data) => data.countryiso3code === country.cca3
-  )?.value;
-  const unemployment = economicData.unemployment.find(
-    (data) => data.countryiso3code === country.cca3
-  )?.value;
+  // Get the most recent values (data is already filtered by country)
+  const gdp = economicData.gdp
+    .filter((d) => d.value != null)
+    .sort((a, b) => parseInt(b.date) - parseInt(a.date))[0]?.value;
+  const inflation = economicData.inflation
+    .filter((d) => d.value != null)
+    .sort((a, b) => parseInt(b.date) - parseInt(a.date))[0]?.value;
+  const unemployment = economicData.unemployment
+    .filter((d) => d.value != null)
+    .sort((a, b) => parseInt(b.date) - parseInt(a.date))[0]?.value;
 
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen w-full px-4 py-8">
@@ -273,6 +284,13 @@ export default async function CountryPage({
                 </div>
               )}
             </div>
+
+            {/* Economic Charts */}
+            <EconomicCharts
+              gdp={economicData.gdp}
+              inflation={economicData.inflation}
+              unemployment={economicData.unemployment}
+            />
           </div>
         </div>
       </div>

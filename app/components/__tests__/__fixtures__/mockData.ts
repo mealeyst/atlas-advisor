@@ -115,7 +115,10 @@ export const mockEconomicData: EconomicData = {
   ],
   inflation: [
     {
-      indicator: { id: "FP.CPI.TOTL.ZG", value: "Inflation, consumer prices (annual %)" },
+      indicator: {
+        id: "FP.CPI.TOTL.ZG",
+        value: "Inflation, consumer prices (annual %)",
+      },
       country: { id: "US", value: "United States" },
       countryiso3code: "USA",
       date: "2022",
@@ -125,7 +128,10 @@ export const mockEconomicData: EconomicData = {
       decimal: 1,
     },
     {
-      indicator: { id: "FP.CPI.TOTL.ZG", value: "Inflation, consumer prices (annual %)" },
+      indicator: {
+        id: "FP.CPI.TOTL.ZG",
+        value: "Inflation, consumer prices (annual %)",
+      },
       country: { id: "CA", value: "Canada" },
       countryiso3code: "CAN",
       date: "2022",
@@ -137,7 +143,10 @@ export const mockEconomicData: EconomicData = {
   ],
   unemployment: [
     {
-      indicator: { id: "SL.UEM.TOTL.ZS", value: "Unemployment, total (% of total labor force)" },
+      indicator: {
+        id: "SL.UEM.TOTL.ZS",
+        value: "Unemployment, total (% of total labor force)",
+      },
       country: { id: "US", value: "United States" },
       countryiso3code: "USA",
       date: "2022",
