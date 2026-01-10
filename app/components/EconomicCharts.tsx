@@ -46,7 +46,7 @@ export function EconomicCharts({
         return;
       }
 
-      const margin = { top: 20, right: 30, bottom: 50, left: 60 };
+      const margin = { top: 40, right: 30, bottom: 50, left: 60 };
       const width = 600 - margin.left - margin.right;
       const height = 300 - margin.top - margin.bottom;
 
@@ -102,11 +102,7 @@ export function EconomicCharts({
       // Add y-axis
       svg
         .append("g")
-        .call(
-          d3
-            .axisLeft(yScale)
-            .tickFormat((d) => formatValue(d as number))
-        );
+        .call(d3.axisLeft(yScale).tickFormat((d) => formatValue(d as number)));
 
       // Add grid lines
       svg

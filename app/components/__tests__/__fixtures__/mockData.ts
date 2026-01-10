@@ -29,6 +29,7 @@ export const mockCountries: Country[] = [
         symbol: "$",
       },
     },
+    cca2: "",
   },
   {
     cca3: "CAN",
@@ -58,6 +59,7 @@ export const mockCountries: Country[] = [
         symbol: "$",
       },
     },
+    cca2: "",
   },
   {
     cca3: "MEX",
@@ -87,6 +89,7 @@ export const mockCountries: Country[] = [
         symbol: "$",
       },
     },
+    cca2: "",
   },
 ];
 

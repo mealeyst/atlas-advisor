@@ -284,8 +284,6 @@ export default async function CountryPage({
                 </div>
               )}
             </div>
-
-            {/* Economic Charts */}
             <EconomicCharts
               gdp={economicData.gdp}
               inflation={economicData.inflation}

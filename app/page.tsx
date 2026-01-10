@@ -40,7 +40,7 @@ type IndicatorMeta = {
   lastupdated: string;
 };
 
-type IndicatorData = {
+export type IndicatorData = {
   indicator: {
     id: string;
     value: string;
