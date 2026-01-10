@@ -1,4 +1,4 @@
-import { AtlasTable } from "./components/AtlasTable";
+import { Table } from "./components/Table";
 
 export type Country = {
   cca3: string;
@@ -30,32 +30,39 @@ export type Country = {
   }[];
 };
 
-export type EconomicData = [
-  {
-    page: number;
-    pages: number;
-    per_page: number;
-    total: number;
-    sourceid: string;
-    lastupdated: string;
-  },
-  {
-    indicator: {
-      id: string;
-      value: string;
-    };
-    country: {
-      id: string;
-      value: string;
-    };
-    countryiso3code: string;
-    date: string;
-    value: number;
-    unit: string;
-    obs_status: string;
-    decimal: number;
-  }
-];
+type IndicatorMeta = {
+  page: number;
+  pages: number;
+  per_page: number;
+  total: number;
+  sourceid: string;
+  lastupdated: string;
+};
+
+type IndicatorData = {
+  indicator: {
+    id: string;
+    value: string;
+  };
+  country: {
+    id: string;
+    value: string;
+  };
+  countryiso3code: string;
+  date: string;
+  value: number;
+  unit: string;
+  obs_status: string;
+  decimal: number;
+};
+
+export type IndicatorResponse = [IndicatorMeta, IndicatorData[]];
+
+export type EconomicData = {
+  gdp: IndicatorData[];
+  inflation: IndicatorData[];
+  unemployment: IndicatorData[];
+};
 
 const INDICATORS = [
   { key: "gdp", id: "NY.GDP.MKTP.CD" },
@@ -71,18 +78,30 @@ async function getCountries() {
     async (indicator) =>
       (await fetch(
         `https://api.worldbank.org/v2/country/all/indicator/${indicator.id}?format=json&per_page=300&mrv=1`
-      ).then((res) => res.json())) as EconomicData
+      ).then((res) => res.json())) as IndicatorResponse
   );
-  const economicData = await Promise.all(worldBankApiPromises);
-  console.log(economicData);
-  return countries;
+  const [
+    [_gdpMeta, gdp],
+    [_inflationMeta, inflation],
+    [_unemploymentMeta, unemployment],
+  ] = await Promise.all(worldBankApiPromises);
+
+  const economicData: EconomicData = {
+    gdp,
+    inflation,
+    unemployment,
+  };
+
+  return { countries, economicData };
 }
 export default async function Home() {
-  const countries = await getCountries();
+  const { countries, economicData } = await getCountries();
   return (
-    <div className="relative flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center min-h-screen w-full px-4 py-8">
       <h1 className="text-2xl font-bold mb-5">Atlas Advisory</h1>
-      <AtlasTable countries={countries} />
+      <div className="w-full max-w-full">
+        <Table countries={countries} economicData={economicData} />
+      </div>
     </div>
   );
 }
