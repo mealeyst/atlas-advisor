@@ -4,7 +4,7 @@ import React from "react";
 import { mockCountries } from "@/components/__fixtures__/mockData";
 import { CountryDetail } from "@/types/Country";
 
-import { CountryDetailHeader } from "../components/CountryDetailHeader";
+import { CountryDetailHeader } from "../CountryDetailHeader";
 
 jest.mock("next/image", () => ({
   __esModule: true,
@@ -65,6 +65,6 @@ describe(CountryDetailHeader, () => {
     const country = mockCountries[0] as CountryDetail;
     const { container } = render(<CountryDetailHeader country={country} />);
 
-    expect(container.firstChild).toMatchSnapshot();
+    expect(container).toMatchSnapshot();
   });
 });
