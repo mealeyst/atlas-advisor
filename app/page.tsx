@@ -1,69 +1,7 @@
-import { Table } from "./components/Table";
+import { CountryOverview } from "@/types/Country";
+import { EconomicData, IndicatorResponse } from "@/types/Economy";
 
-export type Country = {
-  cca2: string;
-  cca3: string;
-  name: {
-    common: string;
-    official: string;
-    nativeName: {
-      [key: string]: {
-        official: string;
-        common: string;
-      };
-    };
-  };
-  region: string;
-  flags: {
-    svg: string;
-    png: string;
-    alt: string;
-  };
-  population: number;
-  gini: {
-    [key: string]: number;
-  };
-  currencies: {
-    [key: string]: {
-      name: string;
-      symbol: string;
-    };
-  };
-};
-
-type IndicatorMeta = {
-  page: number;
-  pages: number;
-  per_page: number;
-  total: number;
-  sourceid: string;
-  lastupdated: string;
-};
-
-export type IndicatorData = {
-  indicator: {
-    id: string;
-    value: string;
-  };
-  country: {
-    id: string;
-    value: string;
-  };
-  countryiso3code: string;
-  date: string;
-  value: number;
-  unit: string;
-  obs_status: string;
-  decimal: number;
-};
-
-export type IndicatorResponse = [IndicatorMeta, IndicatorData[]];
-
-export type EconomicData = {
-  gdp: IndicatorData[];
-  inflation: IndicatorData[];
-  unemployment: IndicatorData[];
-};
+import { Table } from "../components/overview/Table";
 
 const INDICATORS = [
   { key: "gdp", id: "NY.GDP.MKTP.CD" },
@@ -74,13 +12,14 @@ const INDICATORS = [
 async function getCountries() {
   const countries = (await fetch(
     "https://restcountries.com/v3.1/all?fields=cca2,cca3,name,region,flags,population,gini,currencies"
-  ).then((res) => res.json())) as Country[];
+  ).then((res) => res.json())) as CountryOverview[];
   const worldBankApiPromises = INDICATORS.map(
     async (indicator) =>
       (await fetch(
         `https://api.worldbank.org/v2/country/all/indicator/${indicator.id}?format=json&per_page=300&mrv=1`
       ).then((res) => res.json())) as IndicatorResponse
   );
+  // World bank returns an array with the first item being metadata. We don't need the metadata, so we destructure the array and ignore the first item.
   const [
     [_gdpMeta, gdp],
     [_inflationMeta, inflation],
@@ -88,9 +27,9 @@ async function getCountries() {
   ] = await Promise.all(worldBankApiPromises);
 
   const economicData: EconomicData = {
-    gdp,
-    inflation,
-    unemployment,
+    gdp: gdp ?? [],
+    inflation: inflation ?? [],
+    unemployment: unemployment ?? [],
   };
 
   return { countries, economicData };

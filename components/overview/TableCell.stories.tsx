@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
+
 import { TableCell } from "./TableCell";
 
 const meta: Meta<typeof TableCell> = {
@@ -46,7 +47,8 @@ export const WithCustomClassName: Story = {
 
 export const WithLongContent: Story = {
   args: {
-    children: "This is a very long cell content that might wrap or truncate depending on styling",
+    children:
+      "This is a very long cell content that might wrap or truncate depending on styling",
   },
   render: (args) => (
     <table>

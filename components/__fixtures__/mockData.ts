@@ -1,6 +1,7 @@
-import { Country, EconomicData } from "../../../page";
+import { CountryOverview } from "@/types/Country";
+import { EconomicData, IndicatorData } from "@/types/Economy";
 
-export const mockCountries: Country[] = [
+export const mockCountries: CountryOverview[] = [
   {
     cca3: "USA",
     name: {
@@ -159,4 +160,63 @@ export const mockEconomicData: EconomicData = {
       decimal: 1,
     },
   ],
+};
+
+// Generate 10 years of mock data for GDP
+export const generateGDPData = (
+  countryCode: string,
+  baseValue: number
+): IndicatorData[] => {
+  const years = Array.from({ length: 10 }, (_, i) => 2015 + i);
+  return years.map((year, index) => ({
+    indicator: { id: "NY.GDP.MKTP.CD", value: "GDP (current US$)" },
+    country: { id: countryCode, value: "Country" },
+    countryiso3code: countryCode,
+    date: year.toString(),
+    value: baseValue * (1 + index * 0.05), // 5% growth per year
+    unit: "",
+    obs_status: "",
+    decimal: 0,
+  }));
+};
+
+// Generate 10 years of mock data for inflation (including negative values)
+export const generateInflationData = (
+  countryCode: string,
+  values: number[]
+): IndicatorData[] => {
+  return values.map((value, index) => ({
+    indicator: {
+      id: "FP.CPI.TOTL.ZG",
+      value: "Inflation, consumer prices (annual %)",
+    },
+    country: { id: countryCode, value: "Country" },
+    countryiso3code: countryCode,
+    date: (2015 + index).toString(),
+    value,
+    unit: "",
+    obs_status: "",
+    decimal: 1,
+  }));
+};
+
+// Generate 10 years of mock data for unemployment
+export const generateUnemploymentData = (
+  countryCode: string,
+  baseValue: number
+): IndicatorData[] => {
+  const years = Array.from({ length: 10 }, (_, i) => 2015 + i);
+  return years.map((year, index) => ({
+    indicator: {
+      id: "SL.UEM.TOTL.ZS",
+      value: "Unemployment, total (% of total labor force)",
+    },
+    country: { id: countryCode, value: "Country" },
+    countryiso3code: countryCode,
+    date: year.toString(),
+    value: baseValue + Math.sin(index) * 2, // Slight variation
+    unit: "",
+    obs_status: "",
+    decimal: 1,
+  }));
 };

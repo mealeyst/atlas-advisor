@@ -1,5 +1,10 @@
-import { twMerge } from "tailwind-merge";
+import {
+  ArrowDownIcon,
+  ArrowUpIcon,
+  ArrowsDownUpIcon,
+} from "@phosphor-icons/react";
 import type { Header } from "@tanstack/react-table";
+import { twMerge } from "tailwind-merge";
 
 export const TableHeader = <TData,>({
   children,
@@ -25,12 +30,14 @@ export const TableHeader = <TData,>({
       <div className="flex items-center gap-2">
         {children}
         {canSort && (
-          <span className="text-gray-400">
-            {sortDirection === "asc"
-              ? "↑"
-              : sortDirection === "desc"
-              ? "↓"
-              : "⇅"}
+          <span className="text-gray-50">
+            {sortDirection === "asc" ? (
+              <ArrowUpIcon className="w-4 h-4" />
+            ) : sortDirection === "desc" ? (
+              <ArrowDownIcon className="w-4 h-4" />
+            ) : (
+              <ArrowsDownUpIcon className="w-4 h-4" />
+            )}
           </span>
         )}
       </div>

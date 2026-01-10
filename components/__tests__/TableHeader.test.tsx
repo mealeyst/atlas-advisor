@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { TableHeader } from "../TableHeader";
+
+import { TableHeader } from "../overview/TableHeader";
 
 describe(TableHeader, () => {
   it("renders children correctly", () => {

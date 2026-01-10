@@ -8,13 +8,16 @@ import {
   type ColumnDef,
   type SortingState,
 } from "@tanstack/react-table";
-import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
-import { Country, EconomicData } from "../page";
+import { useState, useMemo } from "react";
+
+import { CountryOverview } from "@/types/Country";
+import { EconomicData } from "@/types/Economy";
+
 import { TableCell } from "./TableCell";
 import { TableHeader } from "./TableHeader";
 
-type TableRowData = Country & {
+type TableRowData = CountryOverview & {
   gdpValue: number | null;
   inflationValue: number | null;
   unemploymentValue: number | null;
@@ -123,7 +126,7 @@ export const Table = ({
   countries,
   economicData,
 }: {
-  countries: Country[];
+  countries: CountryOverview[];
   economicData: EconomicData;
 }) => {
   const [sorting, setSorting] = useState<SortingState>([]);

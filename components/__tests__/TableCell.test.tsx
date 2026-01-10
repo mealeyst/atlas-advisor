@@ -1,5 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import { TableCell } from "../TableCell";
+
+import { TableCell } from "../overview/TableCell";
 
 describe(TableCell, () => {
   it("renders children correctly", () => {

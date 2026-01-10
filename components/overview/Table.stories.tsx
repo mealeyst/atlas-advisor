@@ -1,9 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
+
 import { Table } from "./Table";
-import {
-  mockCountries,
-  mockEconomicData,
-} from "./__tests__/__fixtures__/mockData";
+import { mockCountries, mockEconomicData } from "../__fixtures__/mockData";
 
 const meta: Meta<typeof Table> = {
   title: "Components/Table",
