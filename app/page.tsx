@@ -27,7 +27,7 @@ export type Country = {
       name: string;
       symbol: string;
     };
-  }[];
+  };
 };
 
 type IndicatorMeta = {
