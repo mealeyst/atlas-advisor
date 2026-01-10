@@ -16,8 +16,8 @@ export const TableHeader = <TData,>({
   return (
     <th
       className={twMerge(
-        "px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider sticky top-0 z-20 bg-gray-50 shadow-sm",
-        canSort && "cursor-pointer select-none hover:bg-gray-100",
+        "px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm",
+        canSort && "cursor-pointer select-none hover:bg-blue-600",
         className
       )}
       onClick={canSort ? header?.column.getToggleSortingHandler() : undefined}

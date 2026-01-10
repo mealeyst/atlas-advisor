@@ -7,6 +7,7 @@ Atlas Advisor is a web application designed to help companies identify internati
 Atlas Advisor aggregates data from two primary APIs to create a unified dataset for market analysis:
 
 1. **REST Countries API** - Provides comprehensive country information including:
+
    - Country names and official names
    - Geographic regions
    - Population data
@@ -20,6 +21,7 @@ Atlas Advisor aggregates data from two primary APIs to create a unified dataset 
    - Unemployment rate - `SL.UEM.TOTL.ZS`
 
 By merging these datasets, Atlas Advisor enables businesses to:
+
 - Compare economic indicators across countries
 - Identify markets with favorable economic conditions
 - Analyze demographic and economic trends
@@ -36,7 +38,7 @@ By merging these datasets, Atlas Advisor enables businesses to:
 
 ### Prerequisites
 
-- Node.js 18+ 
+- Node.js 18+
 - pnpm (or npm/yarn/bun)
 
 ### Installation

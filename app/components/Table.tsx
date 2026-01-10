@@ -9,6 +9,7 @@ import {
   type SortingState,
 } from "@tanstack/react-table";
 import { useState, useMemo } from "react";
+import { useRouter } from "next/navigation";
 import { Country, EconomicData } from "../page";
 import { TableCell } from "./TableCell";
 import { TableHeader } from "./TableHeader";
@@ -126,6 +127,7 @@ export const Table = ({
   economicData: EconomicData;
 }) => {
   const [sorting, setSorting] = useState<SortingState>([]);
+  const router = useRouter();
 
   // Transform data to include economic values for sorting
   const tableData = useMemo<TableRowData[]>(() => {
@@ -161,58 +163,61 @@ export const Table = ({
   });
 
   return (
-    <div className="w-full max-w-full h-screen overflow-auto shadow-md border-b border-gray-200 sm:rounded-lg">
-      <table className="overflow-y-auto min-w-full divide-y divide-gray-200">
-        <thead className="bg-gray-50">
-          {table.getHeaderGroups().map((headerGroup) => (
-            <tr key={headerGroup.id}>
-              {headerGroup.headers.map((header, index) => (
-                <TableHeader
-                  key={header.id}
-                  className={
-                    index === 0
-                      ? "max-w-[200px] truncate"
-                      : index === 1
-                      ? "sticky top-0 left-0 z-30 shadow-[2px_0_4px_rgba(0,0,0,0.1)]"
-                      : ""
-                  }
-                  header={header}
-                >
-                  {header.isPlaceholder
-                    ? null
-                    : flexRender(
-                        header.column.columnDef.header,
-                        header.getContext()
-                      )}
-                </TableHeader>
-              ))}
-            </tr>
-          ))}
-        </thead>
-        <tbody className="bg-white divide-y divide-gray-200">
-          {table.getRowModel().rows.map((row) => (
-            <tr
-              key={row.id}
-              className="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
-            >
-              {row.getVisibleCells().map((cell, index) => (
-                <TableCell
-                  key={cell.id}
-                  className={
-                    index === 0
-                      ? "max-w-[200px] truncate"
-                      : index === 1
-                      ? "sticky left-0 z-10 bg-white group-hover:bg-gray-100 transition-all duration-300 shadow-[2px_0_4px_rgba(0,0,0,0.1)]"
-                      : ""
-                  }
-                >
-                  {flexRender(cell.column.columnDef.cell, cell.getContext())}
-                </TableCell>
-              ))}
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-lg before:shadow-md before:z-[-1]">
+      <div className=" w-full max-w-full max-h-[calc(100vh-84px)] overflow-auto">
+        <table className="min-w-full divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg">
+          <thead className="bg-gray-50">
+            {table.getHeaderGroups().map((headerGroup) => (
+              <tr key={headerGroup.id}>
+                {headerGroup.headers.map((header, index) => (
+                  <TableHeader
+                    key={header.id}
+                    className={
+                      index === 0
+                        ? "max-w-[200px] truncate"
+                        : index === 1
+                        ? "sticky top-0 left-0 z-30 shadow-[2px_0_4px_rgba(0,0,0,0.1)]"
+                        : ""
+                    }
+                    header={header}
+                  >
+                    {header.isPlaceholder
+                      ? null
+                      : flexRender(
+                          header.column.columnDef.header,
+                          header.getContext()
+                        )}
+                  </TableHeader>
+                ))}
+              </tr>
+            ))}
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-200">
+            {table.getRowModel().rows.map((row) => (
+              <tr
+                key={row.id}
+                onClick={() => router.push(`/${row.original.cca2}`)}
+                className="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+              >
+                {row.getVisibleCells().map((cell, index) => (
+                  <TableCell
+                    key={cell.id}
+                    className={
+                      index === 0
+                        ? "max-w-[200px] truncate"
+                        : index === 1
+                        ? "sticky left-0 z-10 bg-white group-hover:bg-gray-100 transition-all duration-300 shadow-[2px_0_4px_rgba(0,0,0,0.1)]"
+                        : ""
+                    }
+                  >
+                    {flexRender(cell.column.columnDef.cell, cell.getContext())}
+                  </TableCell>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };

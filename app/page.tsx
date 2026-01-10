@@ -1,6 +1,7 @@
 import { Table } from "./components/Table";
 
 export type Country = {
+  cca2: string;
   cca3: string;
   name: {
     common: string;
@@ -72,7 +73,7 @@ const INDICATORS = [
 
 async function getCountries() {
   const countries = (await fetch(
-    "https://restcountries.com/v3.1/all?fields=cca3,name,region,flags,population,gini,currencies"
+    "https://restcountries.com/v3.1/all?fields=cca2,cca3,name,region,flags,population,gini,currencies"
   ).then((res) => res.json())) as Country[];
   const worldBankApiPromises = INDICATORS.map(
     async (indicator) =>
