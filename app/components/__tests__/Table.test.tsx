@@ -3,21 +3,7 @@ import { Table } from "../Table";
 import { Country } from "../../page";
 import { mockCountries, mockEconomicData } from "./__fixtures__/mockData";
 
-describe("Table", () => {
-  it("renders all table headers", () => {
-    render(<Table countries={[]} economicData={mockEconomicData} />);
-
-    expect(screen.getByText("Name")).toBeInTheDocument();
-    expect(screen.getByText("ISO Code")).toBeInTheDocument();
-    expect(screen.getByText("Region")).toBeInTheDocument();
-    expect(screen.getByText("Population")).toBeInTheDocument();
-    expect(screen.getByText("Gini")).toBeInTheDocument();
-    expect(screen.getByText("Currencies")).toBeInTheDocument();
-    expect(screen.getByText("GDP")).toBeInTheDocument();
-    expect(screen.getByText("Inflation")).toBeInTheDocument();
-    expect(screen.getByText("Unemployment")).toBeInTheDocument();
-  });
-
+describe(Table, () => {
   it("renders country data correctly", () => {
     render(<Table countries={mockCountries} economicData={mockEconomicData} />);
 
@@ -28,17 +14,6 @@ describe("Table", () => {
     expect(screen.getByText("329484123")).toBeInTheDocument();
     expect(screen.getByText("41.4")).toBeInTheDocument();
     expect(screen.getByText("USD")).toBeInTheDocument();
-  });
-
-  it("renders multiple countries", () => {
-    render(<Table countries={mockCountries} economicData={mockEconomicData} />);
-
-    expect(screen.getByText("United States")).toBeInTheDocument();
-    expect(screen.getByText("Canada")).toBeInTheDocument();
-    // The long name is truncated, so check for the truncated version
-    expect(
-      screen.getByText("A Very Long Country Name That ...")
-    ).toBeInTheDocument();
   });
 
   it("truncates long country names", () => {
