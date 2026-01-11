@@ -1,13 +1,9 @@
 import Link from "next/link";
 
+import { DetailContent } from "@/components/detail";
 import { CountryDetailHeader } from "@/components/detail/components/CountryDetailHeader";
-import { Content } from "@/components/detail/Content";
 import { CountryDetail } from "@/types/Country";
-import {
-  EconomicData,
-  IndicatorData,
-  IndicatorResponse,
-} from "@/types/Economy";
+import { EconomicData, IndicatorData, IndicatorResponse } from "@/types/Economy";
 
 const INDICATORS = [
   { key: "gdp", id: "NY.GDP.MKTP.CD" },
@@ -25,9 +21,7 @@ async function getCountryData(cca2: string) {
   );
 
   if (!response.ok) {
-    throw new Error(
-      `Failed to fetch country data: ${response.status} ${response.statusText}`
-    );
+    throw new Error(`Failed to fetch country data: ${response.status} ${response.statusText}`);
   }
 
   const data = await response.json();
@@ -59,23 +53,15 @@ async function getCountryData(cca2: string) {
   );
 
   // World bank api returns a metadata object and an array of data point, but we don't need the metadata
-  const [
-    [_gdpMeta, gdp],
-    [_inflationMeta, inflation],
-    [_unemploymentMeta, unemployment],
-  ] = await Promise.all(worldBankApiPromises);
+  const [[_gdpMeta, gdp], [_inflationMeta, inflation], [_unemploymentMeta, unemployment]] = await Promise.all(
+    worldBankApiPromises
+  );
 
   // Filter data for the specific country
-  const countryGdp =
-    gdp?.filter((data: IndicatorData) => data.countryiso3code === cca3) ?? [];
-  const countryInflation =
-    inflation?.filter((data: IndicatorData) => data.countryiso3code === cca3) ??
-    [];
+  const countryGdp = gdp?.filter((data: IndicatorData) => data.countryiso3code === cca3) ?? [];
+  const countryInflation = inflation?.filter((data: IndicatorData) => data.countryiso3code === cca3) ?? [];
   console.log({ gdp, inflation, unemployment });
-  const countryUnemployment =
-    unemployment?.filter(
-      (data: IndicatorData) => data.countryiso3code === cca3
-    ) ?? [];
+  const countryUnemployment = unemployment?.filter((data: IndicatorData) => data.countryiso3code === cca3) ?? [];
 
   const economicData: EconomicData = {
     gdp: countryGdp,
@@ -86,11 +72,7 @@ async function getCountryData(cca2: string) {
   return { country, economicData };
 }
 
-export default async function CountryPage({
-  params,
-}: {
-  params: Promise<{ cca2: string }>;
-}) {
+export default async function CountryPage({ params }: { params: Promise<{ cca2: string }> }) {
   const { cca2 } = await params;
   const { country, economicData } = await getCountryData(cca2);
 
@@ -108,16 +90,13 @@ export default async function CountryPage({
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen w-full px-4 py-8">
       <div className="w-full max-w-4xl">
-        <Link
-          href="/"
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6 transition-colors"
-        >
+        <Link href="/" className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-6 transition-colors">
           ← Back to Countries
         </Link>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <CountryDetailHeader country={country} />
-          <Content country={country} economicData={economicData} />
+          <DetailContent country={country} economicData={economicData} />
         </div>
       </div>
     </div>

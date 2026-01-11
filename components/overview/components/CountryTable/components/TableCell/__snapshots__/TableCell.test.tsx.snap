@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TableCell matches Default story snapshot 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td
+          class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+        >
+          Cell Content
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`TableCell matches WithCustomClassName story snapshot 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td
+          class="px-6 py-4 whitespace-nowrap text-sm font-medium first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white bg-blue-100 text-blue-900"
+        >
+          Custom Styled Cell
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`TableCell matches WithLongContent story snapshot 1`] = `
+<div>
+  <table>
+    <tbody>
+      <tr>
+        <td
+          class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+        >
+          This is a very long cell content that might wrap or truncate depending on styling
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

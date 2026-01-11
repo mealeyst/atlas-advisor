@@ -1,0 +1,656 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`TechnologyStack matches CustomTitle story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Our Tech Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        19.2.3
+      </span>
+    </div>
+  </div>
+  <h3
+    class="text-lg font-semibold text-gray-900 mb-3"
+  >
+    Libraries
+  </h3>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TanStack Table
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        8.21.3
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TechnologyStack matches Default story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Technology Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        19.2.3
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TypeScript
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        5+
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Tailwind CSS
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        4
+      </span>
+    </div>
+  </div>
+  <h3
+    class="text-lg font-semibold text-gray-900 mb-3"
+  >
+    Libraries
+  </h3>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TanStack Table
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        8.21.3
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        D3
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        7.9.0
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TechnologyStack matches ManyTechnologies story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Technology Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        19.2.3
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TypeScript
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        5+
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Tailwind CSS
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        4
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Node.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        20+
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        PostgreSQL
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        15+
+      </span>
+    </div>
+  </div>
+  <h3
+    class="text-lg font-semibold text-gray-900 mb-3"
+  >
+    Libraries
+  </h3>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TanStack Table
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        8.21.3
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        D3
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        7.9.0
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Zustand
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        4.5.0
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React Query
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        5.0.0
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TechnologyStack matches SingleTechnology story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Technology Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TechnologyStack matches WithLongVersionNames story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Technology Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1 (Latest Stable)
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        19.2.3 (Canary)
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TypeScript
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        5.4.5 (Beta)
+      </span>
+    </div>
+  </div>
+  <h3
+    class="text-lg font-semibold text-gray-900 mb-3"
+  >
+    Libraries
+  </h3>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TanStack Table
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        8.21.3 (Latest)
+      </span>
+    </div>
+  </div>
+  <div
+    class="flex items-center gap-3 pb-6"
+  >
+    <div
+      class="flex w-full gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        D3
+        :
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        7.9.0 (Stable)
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TechnologyStack matches WithoutLibraries story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Technology Stack
+  </h2>
+  <div
+    class="grid gap-3 md:grid-cols-2 mb-6"
+  >
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Next.js
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        16.1.1
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        React
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        19.2.3
+      </span>
+    </div>
+    <div
+      class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg"
+    >
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        TypeScript
+        :
+      </span>
+      <span
+        class="font-semibold text-gray-900 min-w-[120px]"
+      >
+        Framework:
+      </span>
+      <span
+        class="text-gray-700"
+      >
+        5+
+      </span>
+    </div>
+  </div>
+</div>
+`;

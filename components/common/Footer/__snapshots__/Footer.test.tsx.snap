@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Footer matches Default story snapshot 1`] = `
+<div>
+  <footer
+    class="w-full border-t border-gray-200 bg-white mt-auto"
+  >
+    <div
+      class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8"
+    >
+      <div
+        class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4"
+      >
+        <div
+          class="space-y-4"
+        >
+          <a
+            class="flex items-center"
+            href="/"
+          >
+            <img
+              alt="Atlas Advisory Logo"
+              class="h-auto w-auto"
+              data-nimg="1"
+              decoding="async"
+              height="60"
+              loading="lazy"
+              src="/_next/image?url=%2Flogo.png&w=256&q=75"
+              srcset="/_next/image?url=%2Flogo.png&w=128&q=75 1x, /_next/image?url=%2Flogo.png&w=256&q=75 2x"
+              style="color: transparent;"
+              width="120"
+            />
+          </a>
+          <p
+            class="text-sm text-gray-600 max-w-xs"
+          >
+            Helping companies identify international market opportunities through comprehensive global data analysis.
+          </p>
+        </div>
+        <div>
+          <h3
+            class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4"
+          >
+            Navigation
+          </h3>
+          <ul
+            class="space-y-3"
+          >
+            <li>
+              <a
+                class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                href="/"
+              >
+                Countries
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                href="/about"
+              >
+                About
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h3
+            class="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4"
+          >
+            Resources
+          </h3>
+          <ul
+            class="space-y-3"
+          >
+            <li>
+              <a
+                class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                href="https://restcountries.com/"
+              >
+                REST Countries API
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+                href="https://datahelpdesk.worldbank.org/knowledgebase/articles/898581"
+              >
+                World Bank API
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="mt-12 border-t border-gray-200 pt-8"
+      >
+        <div
+          class="flex flex-col items-center justify-between gap-4 sm:flex-row"
+        >
+          <p
+            class="text-sm text-gray-600"
+          >
+            © 
+            2026
+             Atlas Advisory. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

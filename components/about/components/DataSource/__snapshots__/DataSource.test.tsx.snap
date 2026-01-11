@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`DataSource matches Default story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      REST Countries API
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      Provides comprehensive country information including:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        Country names and official names
+      </li>
+      <li>
+        Geographic regions and subregions
+      </li>
+      <li>
+        Population data
+      </li>
+      <li>
+        Gini coefficient (income inequality metrics)
+      </li>
+      <li>
+        Currency information
+      </li>
+      <li>
+        Flag images
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://restcountries.com/"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches LongDescription story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      Data Source
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      This is a very long description that demonstrates how the component handles extended text content. It provides comprehensive information about the data source and its capabilities, including detailed explanations of what kind of data it offers and how it can be used for various analytical purposes.
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        Detail one
+      </li>
+      <li>
+        Detail two
+      </li>
+      <li>
+        Detail three
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://example.com"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches LongDetailItems story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      Data Source
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      Provides information including:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        This is a very long detail item that demonstrates how the component handles extended text content within individual list items
+      </li>
+      <li>
+        Another long detail item that shows how multiple lengthy descriptions are displayed in the list format
+      </li>
+      <li>
+        A third lengthy detail that continues to test the component's layout and styling capabilities
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://example.com"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches LongTitle story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      Very Long Data Source Name That Might Wrap Across Multiple Lines
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      Provides comprehensive information:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        First detail
+      </li>
+      <li>
+        Second detail
+      </li>
+      <li>
+        Third detail
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://example.com"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches ManyDetails story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      Comprehensive Data Source
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      A data source with extensive information:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        First data point
+      </li>
+      <li>
+        Second data point
+      </li>
+      <li>
+        Third data point
+      </li>
+      <li>
+        Fourth data point
+      </li>
+      <li>
+        Fifth data point
+      </li>
+      <li>
+        Sixth data point
+      </li>
+      <li>
+        Seventh data point
+      </li>
+      <li>
+        Eighth data point
+      </li>
+      <li>
+        Ninth data point
+      </li>
+      <li>
+        Tenth data point
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://example.com"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches SingleDetail story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      Simple Data Source
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      A data source with minimal details:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        Single data point
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://example.com"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;
+
+exports[`DataSource matches WorldBank story snapshot 1`] = `
+<div>
+  <div
+    class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow"
+  >
+    <h3
+      class="text-xl font-semibold text-gray-900 mb-3"
+    >
+      World Bank API
+    </h3>
+    <p
+      class="text-gray-700 mb-4"
+    >
+      Supplies economic indicators including:
+    </p>
+    <ul
+      class="space-y-2 text-gray-600 list-disc list-inside"
+    >
+      <li>
+        GDP (Gross Domestic Product)
+      </li>
+      <li>
+        Inflation rate
+      </li>
+      <li>
+        Unemployment rate
+      </li>
+      <li>
+        Historical trend data
+      </li>
+      <li>
+        Comparative analysis metrics
+      </li>
+    </ul>
+    <a
+      class="inline-block mt-4 text-blue-600 hover:text-blue-800 transition-colors font-medium"
+      href="https://datahelpdesk.worldbank.org/knowledgebase/articles/898581"
+    >
+      Learn more →
+    </a>
+  </div>
+</div>
+`;

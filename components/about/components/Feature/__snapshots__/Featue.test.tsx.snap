@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Feature matches Default story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Comprehensive Country Data
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        View detailed information for all countries in a single, searchable table
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches EconomicIndicators story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Economic Indicators
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        Access real-time GDP, inflation, and unemployment data from the World Bank
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches LongDescription story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Advanced Analytics
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        Our platform provides comprehensive market analysis tools that enable businesses to identify trends, compare economic indicators across multiple countries, and make data-driven decisions about international expansion opportunities with confidence.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches LongTitle story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Comprehensive International Market Opportunity Identification and Analysis
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        View detailed information for all countries in a single, searchable table
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches ResponsiveDesign story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Responsive Design
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        Clean, modern interface built with Next.js and Tailwind CSS
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches ShortDescription story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Quick Access
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        Fast and easy
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Feature matches UnifiedView story snapshot 1`] = `
+<div>
+  <div
+    class="flex items-start gap-3"
+  >
+    <div
+      class="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mt-1"
+    >
+      <svg
+        class="w-4 h-4 text-blue-600"
+        fill="currentColor"
+        height="1em"
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM232,128A104,104,0,1,1,128,24,104.11,104.11,0,0,1,232,128Zm-16,0a88,88,0,1,0-88,88A88.1,88.1,0,0,0,216,128Z"
+        />
+      </svg>
+    </div>
+    <div>
+      <h3
+        class="font-semibold text-gray-900 mb-1"
+      >
+        Unified View
+      </h3>
+      <p
+        class="text-gray-600 text-sm"
+      >
+        See country demographics and economic metrics side-by-side for easy comparison
+      </p>
+    </div>
+  </div>
+</div>
+`;

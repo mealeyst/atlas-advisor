@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`IndicatorCharts matches AllCharts story snapshot 1`] = `
+<div>
+  <div
+    class="mt-8 space-y-8"
+  >
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-4"
+    >
+      Economic Trends (10 Years)
+    </h2>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="w-full"
+      />
+      <div
+        class="w-full"
+      />
+      <div
+        class="w-full"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndicatorCharts matches OnlyGDP story snapshot 1`] = `
+<div>
+  <div
+    class="mt-8 space-y-8"
+  >
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-4"
+    >
+      Economic Trends (10 Years)
+    </h2>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="w-full"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndicatorCharts matches OnlyInflation story snapshot 1`] = `
+<div>
+  <div
+    class="mt-8 space-y-8"
+  >
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-4"
+    >
+      Economic Trends (10 Years)
+    </h2>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="w-full"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndicatorCharts matches OnlyUnemployment story snapshot 1`] = `
+<div>
+  <div
+    class="mt-8 space-y-8"
+  >
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-4"
+    >
+      Economic Trends (10 Years)
+    </h2>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="w-full"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`IndicatorCharts matches WithNegativeInflation story snapshot 1`] = `
+<div>
+  <div
+    class="mt-8 space-y-8"
+  >
+    <h2
+      class="text-xl font-semibold text-gray-900 mb-4"
+    >
+      Economic Trends (10 Years)
+    </h2>
+    <div
+      class="space-y-8"
+    >
+      <div
+        class="w-full"
+      />
+      <div
+        class="w-full"
+      />
+      <div
+        class="w-full"
+      />
+    </div>
+  </div>
+</div>
+`;

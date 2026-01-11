@@ -24,11 +24,7 @@ const eslintConfig = defineConfig([
       "import/order": [
         "error",
         {
-          groups: [
-            ["builtin", "external"],
-            "internal",
-            ["parent", "sibling", "index"],
-          ],
+          groups: [["builtin", "external"], "internal", ["parent", "sibling", "index"]],
           pathGroups: [
             {
               pattern: "@/**",
@@ -42,6 +38,16 @@ const eslintConfig = defineConfig([
             order: "asc",
             caseInsensitive: true,
           },
+        },
+      ],
+      "max-len": [
+        "error",
+        {
+          code: 120,
+          ignoreUrls: true,
+          ignoreStrings: true,
+          ignoreTemplateLiterals: true,
+          ignoreRegExpLiterals: true,
         },
       ],
     },

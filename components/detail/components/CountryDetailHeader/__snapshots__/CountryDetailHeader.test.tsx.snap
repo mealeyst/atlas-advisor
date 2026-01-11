@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`CountryDetailHeader matches Canada story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of Canada"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/ca.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          Canada
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          Canada
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          CAN
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches Default story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of the United States of America"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/us.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          United States
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United States of America
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches LongOfficialName story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of the United States of America"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/us.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          United States
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          The United States of America - A Very Long Official Name That Should Display Properly
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches ShortName story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of the United States of America"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/us.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          USA
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United States of America
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches WithLongName story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of Mexico"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/mx.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          A Very Long Country Name That Should Be Truncated
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United Mexican States
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          MEX
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches WithoutFlag story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          United States
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United States of America
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches WithoutFlagAlt story snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="United States"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/us.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          United States
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United States of America
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CountryDetailHeader matches snapshot 1`] = `
+<div>
+  <div
+    class="bg-linear-to-r from-gray-50 to-gray-100 px-8 py-6 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6"
+    >
+      <img
+        alt="The flag of the United States of America"
+        class="object-cover rounded border-2 border-gray-300"
+        height="64"
+        src="https://flagcdn.com/us.svg"
+        width="96"
+      />
+      <div>
+        <h1
+          class="text-3xl font-bold text-gray-900"
+        >
+          United States
+        </h1>
+        <p
+          class="text-lg text-gray-600 mt-1"
+        >
+          United States of America
+        </p>
+        <p
+          class="text-sm text-gray-500 mt-1"
+        >
+          ISO Code: 
+          USA
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

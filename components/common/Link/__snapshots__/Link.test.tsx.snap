@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`FooterLink matches Default story snapshot 1`] = `
+<div>
+  <a
+    class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+    href="/about"
+  >
+    About
+  </a>
+</div>
+`;
+
+exports[`FooterLink matches WithCustomClassName story snapshot 1`] = `
+<div>
+  <a
+    class="text-blue-600 hover:text-blue-800 underline"
+    href="/contact"
+  >
+    Contact Us
+  </a>
+</div>
+`;
+
+exports[`FooterLink matches WithLongText story snapshot 1`] = `
+<div>
+  <a
+    class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+    href="/terms-of-service"
+  >
+    Terms of Service and Privacy Policy
+  </a>
+</div>
+`;
+
+exports[`SiteHeaderLink matches Default story snapshot 1`] = `
+<div>
+  <a
+    class="text-gray-700 hover:text-gray-900 transition-colors font-medium"
+    href="/"
+  >
+    Home
+  </a>
+</div>
+`;
+
+exports[`SiteHeaderLink matches WithCustomClassName story snapshot 1`] = `
+<div>
+  <a
+    class="text-blue-600 hover:text-blue-800 underline"
+    href="/contact"
+  >
+    Contact Us
+  </a>
+</div>
+`;
+
+exports[`SiteHeaderLink matches WithLongText story snapshot 1`] = `
+<div>
+  <a
+    class="text-sm text-gray-600 hover:text-gray-900 transition-colors"
+    href="/terms-of-service"
+  >
+    Terms of Service and Privacy Policy
+  </a>
+</div>
+`;
