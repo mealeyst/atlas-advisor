@@ -64,6 +64,36 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+### Running Storybook
+
+To view and develop components in isolation using Storybook:
+
+```bash
+pnpm storybook
+# or
+npm run storybook
+# or
+yarn storybook
+# or
+bun storybook
+```
+
+This will start the Storybook development server on [http://localhost:6006](http://localhost:6006).
+
+To build a static version of Storybook:
+
+```bash
+pnpm build-storybook
+# or
+npm run build-storybook
+# or
+yarn build-storybook
+# or
+bun build-storybook
+```
+
+The static build will be output to the `storybook-static` directory.
+
 ## Technology Stack
 
 - **Framework**: [Next.js](https://nextjs.org) 16.1.1
