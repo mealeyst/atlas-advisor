@@ -1,5 +1,7 @@
 # Atlas Advisor
 
+Visit the [prototype](https://atlas-advisor-three.vercel.app/)
+
 Atlas Advisor is a web application designed to help companies identify international market opportunities by merging and analyzing data from multiple global data sources. The app combines country information with economic indicators to provide a comprehensive view of potential markets worldwide.
 
 ## Overview
