@@ -144,7 +144,7 @@ exports[`CountryTable matches Empty story snapshot 1`] = `
       class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
     >
       <table
-        class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
+        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
       >
         <thead
           class="bg-gray-50"
@@ -554,7 +554,7 @@ exports[`CountryTable matches WithMultipleCountries story snapshot 1`] = `
       class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
     >
       <table
-        class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
+        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
       >
         <thead
           class="bg-gray-50"
@@ -1112,7 +1112,7 @@ exports[`CountryTable matches WithNoEconomicData story snapshot 1`] = `
       class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
     >
       <table
-        class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
+        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
       >
         <thead
           class="bg-gray-50"
@@ -1670,7 +1670,7 @@ exports[`CountryTable matches WithPartialEconomicData story snapshot 1`] = `
       class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
     >
       <table
-        class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
+        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
       >
         <thead
           class="bg-gray-50"
@@ -2228,7 +2228,7 @@ exports[`CountryTable matches WithSingleCountry story snapshot 1`] = `
       class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
     >
       <table
-        class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
+        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
       >
         <thead
           class="bg-gray-50"
