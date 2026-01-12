@@ -141,264 +141,266 @@ exports[`CountryTable matches Empty story snapshot 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
+      class="xl:flex xl:justify-center w-full max-h-dvh max-w-full overflow-auto my-auto"
     >
-      <table
-        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
-      >
-        <thead
-          class="bg-gray-50"
+      <div>
+        <table
+          class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
         >
-          <tr>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-name_common"
-            >
-              <div
-                class="flex items-center gap-2"
+          <thead
+            class="bg-gray-50"
+          >
+            <tr>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-name_common"
               >
-                Name
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Name
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-cca3"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-cca3"
               >
-                ISO Code
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  ISO Code
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-region"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-region"
               >
-                Region
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Region
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-population"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-population"
               >
-                Population
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Population
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gini"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gini"
               >
-                Gini
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Gini
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-currencies"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-currencies"
               >
-                Currencies
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Currencies
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gdpValue"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gdpValue"
               >
-                GDP
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  GDP
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-inflationValue"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-inflationValue"
               >
-                Inflation
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Inflation
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-unemploymentValue"
-            >
-              <div
-                class="flex items-center gap-2"
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-unemploymentValue"
               >
-                Unemployment
-                <span
-                  class="text-gray-50"
+                <div
+                  class="flex items-center gap-2"
                 >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
+                  Unemployment
+                  <span
+                    class="text-gray-50"
                   >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          class="bg-white divide-y divide-gray-200"
-        />
-      </table>
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="bg-white divide-y divide-gray-200"
+          />
+        </table>
+      </div>
     </div>
   </div>
 </div>
@@ -551,412 +553,414 @@ exports[`CountryTable matches WithMultipleCountries story snapshot 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
+      class="xl:flex xl:justify-center w-full max-h-dvh max-w-full overflow-auto my-auto"
     >
-      <table
-        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
-      >
-        <thead
-          class="bg-gray-50"
+      <div>
+        <table
+          class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
         >
-          <tr>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-name_common"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Name
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-cca3"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                ISO Code
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-region"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Region
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-population"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Population
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gini"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Gini
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-currencies"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Currencies
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gdpValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                GDP
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-inflationValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Inflation
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-unemploymentValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Unemployment
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          class="bg-white divide-y divide-gray-200"
-        >
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+          <thead
+            class="bg-gray-50"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              United States
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USA
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              329484123
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              41.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              $25462700000000
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              8%
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              3.6%
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+            <tr>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-name_common"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Name
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-cca3"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  ISO Code
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-region"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Region
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-population"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Population
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gini"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Gini
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-currencies"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Currencies
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gdpValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  GDP
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-inflationValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Inflation
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-unemploymentValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Unemployment
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="bg-white divide-y divide-gray-200"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Canada
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                United States
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USA
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                329484123
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                41.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                $25462700000000
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                8%
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                3.6%
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              CAN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Canada
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                38005238
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                33.3
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                $2139930000000
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                6.8%
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              38005238
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              33.3
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              CAD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              $2139930000000
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              6.8%
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
-          >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              A Very Long Country Name That ...
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MEX
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              128932753
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              45.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MXN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                A Very Long Country Name That ...
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MEX
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                128932753
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                45.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MXN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
@@ -1109,412 +1113,414 @@ exports[`CountryTable matches WithNoEconomicData story snapshot 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
+      class="xl:flex xl:justify-center w-full max-h-dvh max-w-full overflow-auto my-auto"
     >
-      <table
-        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
-      >
-        <thead
-          class="bg-gray-50"
+      <div>
+        <table
+          class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
         >
-          <tr>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-name_common"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Name
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-cca3"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                ISO Code
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-region"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Region
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-population"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Population
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gini"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Gini
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-currencies"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Currencies
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gdpValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                GDP
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-inflationValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Inflation
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-unemploymentValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Unemployment
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          class="bg-white divide-y divide-gray-200"
-        >
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+          <thead
+            class="bg-gray-50"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              United States
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USA
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              329484123
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              41.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+            <tr>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-name_common"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Name
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-cca3"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  ISO Code
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-region"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Region
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-population"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Population
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gini"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Gini
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-currencies"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Currencies
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gdpValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  GDP
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-inflationValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Inflation
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-unemploymentValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Unemployment
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="bg-white divide-y divide-gray-200"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Canada
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                United States
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USA
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                329484123
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                41.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              CAN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Canada
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                38005238
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                33.3
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              38005238
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              33.3
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              CAD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
-          >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              A Very Long Country Name That ...
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MEX
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              128932753
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              45.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MXN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                A Very Long Country Name That ...
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MEX
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                128932753
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                45.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MXN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
@@ -1667,412 +1673,414 @@ exports[`CountryTable matches WithPartialEconomicData story snapshot 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
+      class="xl:flex xl:justify-center w-full max-h-dvh max-w-full overflow-auto my-auto"
     >
-      <table
-        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
-      >
-        <thead
-          class="bg-gray-50"
+      <div>
+        <table
+          class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
         >
-          <tr>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-name_common"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Name
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-cca3"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                ISO Code
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-region"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Region
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-population"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Population
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gini"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Gini
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-currencies"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Currencies
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gdpValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                GDP
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-inflationValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Inflation
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-unemploymentValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Unemployment
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          class="bg-white divide-y divide-gray-200"
-        >
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+          <thead
+            class="bg-gray-50"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              United States
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USA
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              329484123
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              41.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              $25462700000000
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+            <tr>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-name_common"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Name
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-cca3"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  ISO Code
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-region"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Region
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-population"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Population
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gini"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Gini
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-currencies"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Currencies
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gdpValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  GDP
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-inflationValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Inflation
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-unemploymentValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Unemployment
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="bg-white divide-y divide-gray-200"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Canada
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                United States
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USA
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                329484123
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                41.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                $25462700000000
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              CAN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Canada
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                38005238
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                33.3
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                CAD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                $2139930000000
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              38005238
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              33.3
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              CAD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              $2139930000000
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
-          >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              A Very Long Country Name That ...
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MEX
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              128932753
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              45.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              MXN
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              N/A
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                A Very Long Country Name That ...
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MEX
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                128932753
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                45.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                MXN
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                N/A
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
@@ -2225,314 +2233,316 @@ exports[`CountryTable matches WithSingleCountry story snapshot 1`] = `
       </div>
     </div>
     <div
-      class="flex justify-center w-full max-h-dvh max-w-full overflow-auto"
+      class="xl:flex xl:justify-center w-full max-h-dvh max-w-full overflow-auto my-auto"
     >
-      <table
-        class="w-full max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
-      >
-        <thead
-          class="bg-gray-50"
+      <div>
+        <table
+          class="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg"
         >
-          <tr>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-name_common"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Name
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-cca3"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                ISO Code
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-region"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Region
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-population"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Population
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gini"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Gini
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-currencies"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Currencies
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-gdpValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                GDP
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-inflationValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Inflation
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-            <th
-              aria-sort="none"
-              class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
-              data-testid="table-header-unemploymentValue"
-            >
-              <div
-                class="flex items-center gap-2"
-              >
-                Unemployment
-                <span
-                  class="text-gray-50"
-                >
-                  <svg
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    height="1em"
-                    viewBox="0 0 256 256"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
-                    />
-                  </svg>
-                </span>
-              </div>
-            </th>
-          </tr>
-        </thead>
-        <tbody
-          class="bg-white divide-y divide-gray-200"
-        >
-          <tr
-            class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
+          <thead
+            class="bg-gray-50"
           >
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+            <tr>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-name_common"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Name
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-cca3"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  ISO Code
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-region"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Region
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-population"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Population
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gini"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Gini
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-currencies"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Currencies
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-gdpValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  GDP
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-inflationValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Inflation
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+              <th
+                aria-sort="none"
+                class="px-6 py-3 text-left text-xs font-medium text-gray-50 uppercase tracking-wider sticky top-0 z-20 bg-blue-500 shadow-sm first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:top-0 nth-of-type-2:left-0 nth-of-type-2:z-30 cursor-pointer select-none hover:bg-blue-600"
+                data-testid="table-header-unemploymentValue"
+              >
+                <div
+                  class="flex items-center gap-2"
+                >
+                  Unemployment
+                  <span
+                    class="text-gray-50"
+                  >
+                    <svg
+                      class="w-4 h-4"
+                      fill="currentColor"
+                      height="1em"
+                      viewBox="0 0 256 256"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M117.66,170.34a8,8,0,0,1,0,11.32l-32,32a8,8,0,0,1-11.32,0l-32-32a8,8,0,0,1,11.32-11.32L72,188.69V48a8,8,0,0,1,16,0V188.69l18.34-18.35A8,8,0,0,1,117.66,170.34Zm96-96-32-32a8,8,0,0,0-11.32,0l-32,32a8,8,0,0,0,11.32,11.32L168,67.31V208a8,8,0,0,0,16,0V67.31l18.34,18.35a8,8,0,0,0,11.32-11.32Z"
+                      />
+                    </svg>
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="bg-white divide-y divide-gray-200"
+          >
+            <tr
+              class="group hover:bg-gray-100 hover:cursor-pointer transition-all duration-300"
             >
-              United States
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USA
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              Americas
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              329484123
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              41.4
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              USD
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              $25462700000000
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              8%
-            </td>
-            <td
-              class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
-            >
-              3.6%
-            </td>
-          </tr>
-        </tbody>
-      </table>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                United States
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USA
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                Americas
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                329484123
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                41.4
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                USD
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                $25462700000000
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                8%
+              </td>
+              <td
+                class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 first-of-type:max-w-[200px] first-of-type:truncate nth-of-type-2:sticky nth-of-type-2:left-0 nth-of-type-2:bg-white"
+              >
+                3.6%
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>
