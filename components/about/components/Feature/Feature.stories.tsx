@@ -52,7 +52,8 @@ export const ShortDescription: Story = {
 export const LongDescription: Story = {
   args: {
     title: "Advanced Analytics",
-    description: "Our platform provides comprehensive market analysis tools that enable businesses to identify trends, compare economic indicators across multiple countries, and make data-driven decisions about international expansion opportunities with confidence.",
+    description:
+      "Our platform provides comprehensive market analysis tools that enable businesses to identify trends, compare economic indicators across multiple countries, and make data-driven decisions about international expansion opportunities with confidence.",
   },
 };
 

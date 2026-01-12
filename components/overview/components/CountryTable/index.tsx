@@ -230,7 +230,7 @@ export const CountryTable = ({
         table={table}
         tableData={tableData}
       />
-      <div className="w-full max-h-dvh max-w-full overflow-auto">
+      <div className="flex justify-center w-full max-h-dvh max-w-full overflow-auto">
         <table className="max-w-full overflow-auto divide-y divide-gray-200 [&_th]:first:rounded-tl-lg [&_th]:last:rounded-tr-lg [&_tr]:last[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:first:rounded-bl-lg [&_tr]:last:[&_td]:last:rounded-br-lg">
           <thead className="bg-gray-50">
             {table.getHeaderGroups().map((headerGroup) => (
