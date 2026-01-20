@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { H1 } from "@/components/common/Text";
+import { H1, P } from "@/components/common/Text";
 
 export const PageHeader = () => {
   return (
@@ -15,6 +15,10 @@ export const PageHeader = () => {
               />
             </div>
             <H1>About Atlas Advisory</H1>
+            <P>
+              A web application designed to help companies identify international market opportunities by merging and
+              analyzing data from multiple global data sources.
+            </P>
           </div>
   );
 };
