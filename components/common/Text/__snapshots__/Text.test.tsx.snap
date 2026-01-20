@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Text matches H1Default story snapshot 1`] = `
+<div>
+  <h1
+    class="text-4xl font-bold text-gray-900 mb-4"
+  >
+    Main Heading
+  </h1>
+</div>
+`;
+
+exports[`Text matches H1LongText story snapshot 1`] = `
+<div>
+  <h1
+    class="text-4xl font-bold text-gray-900 mb-4"
+  >
+    This is a longer heading that spans multiple words and demonstrates how the component handles extended text
+  </h1>
+</div>
+`;
+
+exports[`Text matches H1WithCustomClassName story snapshot 1`] = `
+<div>
+  <h1
+    class="text-4xl font-bold mb-4 text-blue-600"
+  >
+    Custom Styled Heading
+  </h1>
+</div>
+`;
+
+exports[`Text matches H2Default story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    Section Heading
+  </h2>
+</div>
+`;
+
+exports[`Text matches H2LongText story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold text-gray-900 mb-6"
+  >
+    This is a longer section heading that demonstrates how the H2 component handles extended text content
+  </h2>
+</div>
+`;
+
+exports[`Text matches H2WithCustomClassName story snapshot 1`] = `
+<div>
+  <h2
+    class="text-2xl font-semibold mb-6 text-green-600"
+  >
+    Custom Styled Section Heading
+  </h2>
+</div>
+`;
+
+exports[`Text matches H3Default story snapshot 1`] = `
+<div>
+  <h3
+    class="text-xl font-semibold text-gray-900 mb-3"
+  >
+    Subsection Heading
+  </h3>
+</div>
+`;
+
+exports[`Text matches H3LongText story snapshot 1`] = `
+<div>
+  <h3
+    class="text-xl font-semibold text-gray-900 mb-3"
+  >
+    This is a longer subsection heading that shows how the H3 component handles extended text
+  </h3>
+</div>
+`;
+
+exports[`Text matches H3WithCustomClassName story snapshot 1`] = `
+<div>
+  <h3
+    class="text-xl font-semibold mb-3 text-purple-600"
+  >
+    Custom Styled Subsection Heading
+  </h3>
+</div>
+`;
+
+exports[`Text matches PDefault story snapshot 1`] = `
+<div>
+  <p
+    class="text-gray-700 leading-relaxed mb-4"
+  >
+    This is a paragraph of text that demonstrates the default styling of the P component.
+  </p>
+</div>
+`;
+
+exports[`Text matches PLongText story snapshot 1`] = `
+<div>
+  <p
+    class="text-gray-700 leading-relaxed mb-4"
+  >
+    This is a longer paragraph that contains multiple sentences and demonstrates how the P component handles extended text content. It shows the line height and spacing that makes the text readable and well-formatted. The component uses a relaxed leading to ensure comfortable reading experience.
+  </p>
+</div>
+`;
+
+exports[`Text matches PWithCustomClassName story snapshot 1`] = `
+<div>
+  <p
+    class="leading-relaxed mb-4 text-indigo-600 font-medium"
+  >
+    This paragraph has custom styling applied through the className prop.
+  </p>
+</div>
+`;

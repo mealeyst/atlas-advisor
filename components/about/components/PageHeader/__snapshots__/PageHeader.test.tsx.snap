@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`PageHeader renders the PageHeader component 1`] = `
+<div>
+  <div
+    class="bg-gradient-to-r from-blue-50 to-indigo-50 px-8 py-12 border-b border-gray-200"
+  >
+    <div
+      class="flex items-center gap-6 mb-4"
+    >
+      <img
+        alt="Atlas Advisory Logo"
+        class="h-auto w-auto rounded-md"
+        data-nimg="1"
+        decoding="async"
+        height="60"
+        loading="lazy"
+        src="/_next/image?url=%2Flogo.png&w=256&q=75"
+        srcset="/_next/image?url=%2Flogo.png&w=128&q=75 1x, /_next/image?url=%2Flogo.png&w=256&q=75 2x"
+        style="color: transparent;"
+        width="120"
+      />
+    </div>
+    <h1
+      class="text-4xl font-bold text-gray-900 mb-4"
+    >
+      About Atlas Advisory
+    </h1>
+  </div>
+</div>
+`;

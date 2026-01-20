@@ -1,8 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { DataSource } from "@/components/about/components/DataSource";
 import { Feature } from "@/components/about/components/Feature";
+import { Overview } from "@/components/about/components/Overview";
+import { PageHeader } from "@/components/about/components/PageHeader";
 import { TechnologyStack } from "@/components/about/components/TechnologyStack";
 
 export const metadata = {
@@ -19,40 +20,9 @@ export default function AboutPage() {
         </Link>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          {/* Header Section */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 px-8 py-12 border-b border-gray-200">
-            <div className="flex items-center gap-6 mb-4">
-              <Image
-                src="/logo.png"
-                alt="Atlas Advisory Logo"
-                width={120}
-                height={60}
-                className="h-auto w-auto rounded-md"
-              />
-            </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">About Atlas Advisory</h1>
-            <p className="text-lg text-gray-700 max-w-3xl">
-              A web application designed to help companies identify international market opportunities by merging and
-              analyzing data from multiple global data sources.
-            </p>
-          </div>
-
-          {/* Main Content */}
+          <PageHeader />
           <div className="px-8 py-12 space-y-12">
-            {/* Overview Section */}
-            <section id="overview">
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Overview</h2>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                Atlas Advisory aggregates data from multiple authoritative sources to create a unified dataset for
-                market analysis. By combining country information with economic indicators, we provide a comprehensive
-                view of potential markets worldwide.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                Our platform enables businesses to compare economic indicators across countries, identify markets with
-                favorable economic conditions, analyze demographic and economic trends, and make data-driven decisions
-                about international expansion.
-              </p>
-            </section>
+           <Overview />
 
             <section id="data-sources">
               <h2 className="text-2xl font-semibold text-gray-900 mb-6">Data Sources</h2>

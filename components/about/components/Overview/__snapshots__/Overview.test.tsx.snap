@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Overview renders the Overview component 1`] = `
+<div>
+  <section
+    id="overview"
+  >
+    <h2
+      class="text-2xl font-semibold text-gray-900 mb-6"
+    >
+      Overview
+    </h2>
+    <p
+      class="text-gray-700 leading-relaxed mb-4"
+    >
+      Atlas Advisory aggregates data from multiple authoritative sources to create a unified dataset for market analysis. By combining country information with economic indicators, we provide a comprehensive view of potential markets worldwide.
+    </p>
+    <p
+      class="text-gray-700 leading-relaxed mb-4"
+    >
+      Our platform enables businesses to compare economic indicators across countries, identify markets with favorable economic conditions, analyze demographic and economic trends, and make data-driven decisions about international expansion.
+    </p>
+  </section>
+</div>
+`;
