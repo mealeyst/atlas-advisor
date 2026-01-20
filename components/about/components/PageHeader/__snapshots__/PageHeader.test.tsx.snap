@@ -26,6 +26,11 @@ exports[`PageHeader renders the PageHeader component 1`] = `
     >
       About Atlas Advisory
     </h1>
+    <p
+      class="text-gray-700 leading-relaxed mb-4"
+    >
+      A web application designed to help companies identify international market opportunities by merging and analyzing data from multiple global data sources.
+    </p>
   </div>
 </div>
 `;
